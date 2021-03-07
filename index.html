@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<title>Verifier un formulaire</title>
+		<link rel="stylesheet" type="text/css" href="css/login.css">
+		<meta charset="utf-8">
+		<script type="text/javascript">
+			function validation()
+			{
+				if(document.myForm.nom.value == "")
+				{
+					alert("Merci d'indiquer votre nom !");
+					return false;
+				}
+				else if(document.myForm.prenom.value == "")
+				{
+					alert("Merci d'indiquer votre prénom !")
+					return false;
+				}
+				else if(document.myForm.mdp.value == "")
+				{
+					alert("Merci d'indiquer un mot de passe !")
+					return false;
+				}
+				else if(document.myForm.mdp.value.length < 6)
+				{
+					alert("Merci de mettre un mot de passe avec minimum 6 caractères !")
+					return false;
+				}
+				else
+				{
+					return true;
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<p class="login1">
+		<form method="poat" class="box" action="accueil.html" name="myForm"  onsubmit="return validation()">
+			</style>
+			<h1>Se Connecter</h1>
+			<input type="text" name="nom" placeholder="Nom" />
+			<input type="name" name="prenom" placeholder="Prénom" />
+			<input type="password" name="mdp" placeholder="Mot De Passe" />
+			<input type="submit" name="" placeholder="Login">
+		</form>
+	</p>
+ </body>
+ </html>

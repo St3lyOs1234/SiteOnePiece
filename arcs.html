@@ -1,0 +1,349 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Eiichiro Oda</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/menu.css">
+</head>
+<body>
+	<nav role="navigation">
+    <div id="menuToggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul id="menu">
+            <img class="image-page1pre"src="https://sergent-tobogo.com/wp-content/uploads/2020/05/onepieceskull.png" width="200px" height="200px">
+            <a href="accueil.html">
+                <li>Accueil</li>
+            </a>
+            <a href="eiichirooda.html">
+                <li>Eiichiro Oda</li>
+            </a>
+            <a href="equipage.html">
+                <li>Les Personnages</li>
+            </a>
+            <a href="arcs.html">
+                <li>Les Arcs</li>
+            </a>
+            <a href="connexion.html">
+            	<li>Se Connecter</li>
+            </a>
+        </ul>
+    </div>
+  	</nav>
+<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="onepiece.jpg" style="width:100%">
+    
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="persos.jpg" style="width:100%">
+    
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="op.jpg" style="width:100%">
+    
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="mugiwara.jpg" style="width:100%">
+    
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="logo.jpg" style="width:100%">
+    
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext"></div>
+    <img src="bateau.jpg" style="width:100%">
+    
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+  <br>
+
+  <div style="position: absolute; top: 500px; left: 650px;">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span>
+    <span class="dot" onclick="currentSlide(4)"></span>
+    <span class="dot" onclick="currentSlide(5)"></span>
+    <span class="dot" onclick="currentSlide(6)"></span>
+</div>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+<h1 class="titrechap"><u><b>Les Arcs Principaux</b></u></h1>
+<!--Arc 1 -->
+<h2 class="nomarc1"><u><b>Arc Romance Dawn :</b></u></h2>
+  <img class="imagearc1" src="https://static.wikia.nocookie.net/onepiece/images/9/90/Romance_Dawn_Arc.png/revision/latest/scale-to-width-down/292?cb=20150413235204&path-prefix=fr" width="270" height="300">
+  <div class="textearc1">
+    <p>L'Arc Romance Dawn, parfois appelé Arc du Colonel Morgan est le premier arc de la Saga East Blue du manga et de l'anime One Piece. Cet arc est composé de trois histoires. La première montre comment Monkey D. Luffy a reçu ses pouvoirs et son chapeau de paille et montre sa détermination à vouloir devenir pirate. La seconde histoire est sa rencontre avec un garçon nommé Koby qu'il aide à s'échapper d'une femme pirate nommée Lady Alvida. Dans la dernière histoire, Luffy essaie de recruter Roronoa Zoro dans son équipage tout en affrontant le Colonel Morgan.</p>
+    <p><b><u>Épisodes :</u></b> 1-4, 4 épisodes <b><u>Tomes :</u></b> 1, 1 volume.</p>
+  </div>
+  <div class="bande11"></div>
+
+<h2 class="nomarc2"><u><b>Arc Ville d'Orange :</b></u></h2>
+  <img class="imagearc2" src="https://static.wikia.nocookie.net/onepiece/images/c/c1/Arc_Ville_d%27Orange.png/revision/latest/scale-to-width-down/350?cb=20171202202753&path-prefix=fr" width="195" height="225">
+  <div class="textearc2">
+    <p>Après que Luffy ait été "kidnappé" par un oiseau, Zoro rencontre trois pirates de l'équipage de Baggy le Clown qui disent s'être fait voler leur bateau par une fille. Pendant ce temps, Luffy arrive dans un village désert pris d'assaut par Baggy le Clown. Après un long combat contre Baggy et ses hommes, Luffy arrive à convaincre Nami, une excellente navigatrice ainsi qu'une voleuse de pirates (celle qui a volé le bateau des trois hommes), de rejoindre leur équipage.</p>
+    <p><b><u>Épisodes :</u></b> 4-8, 5 épisodes <b><u>Tomes :</u></b> 1-3, 3 tomes.</p>
+  </div>
+
+  <div class="bande12"></div>
+
+  <h2 class="nomarc3"><u><b>Arc Arlong :</b></u></h2>
+  <img class="imagearc3" src="https://static.wikia.nocookie.net/onepiece/images/1/19/Arlong_Park_Arc.png/revision/latest/scale-to-width-down/561?cb=20131027004845&path-prefix=fr" width="195" height="225">
+  <div class="textearc3">
+    <p>Après avoir volé le Vogue Merry, le bateau de L'Équipage du Chapeau de Paille, Nami rejoint Arlong, un Pirate Homme-Poisson très robuste et convaincu que sa race est supérieure à celle des Humains. Elle détrousse en effet les pirates pour son compte, car il retient en otage les habitants de son village. Luffy, apprenant que sa Navigatrice est sous la menace d'Arlong, décide de l'affronter. Ainsi, après un long combat, il vainc le pirate et Nami regagne son équipage.</p>
+    <p><b><u>Épisodes :</u></b> 31-44, 14 episodes <b><u>Tomes :</u></b> 8-11, 4 tomes.</p>
+  </div>
+
+  <div class="bande13"></div>
+
+  <h2 class="nomarc4"><u><b>Arc Alabasta :</b></u></h2>
+  <img class="imagearc4" src="https://static.wikia.nocookie.net/onepiece/images/4/4f/Arc_Alabasta_Infobox.png/revision/latest/scale-to-width-down/350?cb=20210128212331&path-prefix=fr" width="195" height="225">
+  <div class="textearc4">
+    <p>L'Équipage du Chapeau de Paille et Nefertari Vivi arrivent finalement au royaume désertique d'Alabasta, avec l'intention de démanteler Baroque Works et de détruire les ambitions de Crocodile. Dès la première ville, Luffy tombe sur le Colonel Smoker qui avait anticipé ses mouvements, mais se sort facilement de ce mauvais pas grâce à son frère, Portgas D. Ace, qu'il rencontre aussi par hasard. Tandis que Crocodile met un point final à ses plans pour s'emparer du royaume, nos héros constatent l'ampleur du malaise qui s'y répand : sécheresse, rébellion et menace de guerre civile. Ils décident alors de se rendre directement au repaire du Grand Corsaire, Rainbase, pour l'affronter, mais ils se font prendre au piège (avec Smoker), puis Luffy est laissé pour mort par Crocodile après un duel à sens unique, ne pouvant rien faire contre les pouvoirs Logia de son adversaire. Ce combat lui permettra cependant de comprendre le point faible du corsaire.
+    Les événements déclenchés par toutes ces péripéties semblent devoir se conclure en un seul endroit : la capitale du royaume, où convergent l'armée rebelle, les agents de Baroque Works et l'équipage de Luffy. S'y engage une bataille sanglante et épique entre les rebelles et l'armée régulière d'une part, Baroque Works et nos héros d'autre part, qui mène à la défaite de Crocodile et de ses plans. Luffy y gagne aussi un nouveau membre d'équipage, Nico Robin, qui était pourtant une alliée du corsaire sous le nom de Miss All Sunday, ainsi qu'une prime de cent millions de berrys.</p>
+    <p><b><u>Épisodes :</u></b> 92-130, 39 épisodes <b><u>Tomes :</u></b> 17-24, 8 tomes.</p>
+  </div>
+
+  <div class="bande14"></div>
+
+  <h2 class="nomarc5"><u><b>Arc Skyapia :</b></u></h2>
+  <img class="imagearc5" src="https://static.wikia.nocookie.net/onepiece/images/5/53/Arc_Skypiea_Infobox.png/revision/latest/scale-to-width-down/350?cb=20131024191334&path-prefix=fr" width="195" height="225">
+  <div class="textearc5">
+    <p>Grâce au geyser et à Montblanc Cricket, Luffy et son équipage parviennent sur la Mer Blanche et aux îles célestes de Skypiea. Ils y feront la connaissance de deux habitants des lieux, Conis et Pagaya, qui les initieront aux coutumes et objets locaux, comme les « dials », sortes de coquillage aux propriétés diverses ou les waver qui permettent de naviguer sur la mer de nuage. Cependant, une altercation avec la milice locale leur fait comprendre que tout n'est pas rose dans ce monde : les habitants sont en effet gouverné d'un main de fer par une personne qui se fait appeler « dieu » – ce dernier possédant certains pouvoirs surnaturels comme le mantra. Autre problème : un peuple belliqueux nommé Shandia dont la terre (Upper Yard) a été volée par les habitants du ciel – le leader, Wiper, rêvant d'ailleurs de la récupérer par la force.
+    Dans ce contexte, Luffy et ses amis décident d'aller affronter ce dieu, qui se nomme en fait Ener, occasionnant de nombreux combats entre tous les protagonistes. Finalement, Luffy parviendra à battre Ener grâce à un avantage certain : son corps de caoutchouc est totalement insensible à la foudre de son adversaire. Le passage dans ces îles apportera aussi l'explication sur la mystérieuse cité d'or et la légende de Norland, évoquées par Montblanc Cricket dans l'arc Jaya.</p>
+    <p><b><u>Épisodes :</u></b> 153-195, 43 épisodes <b><u>Tomes :</u></b> 26-32, 7 tomes.</p>
+  </div>
+
+  <div class="bande15"></div>
+
+  <h2 class="nomarc6"><u><b>Arc Water Seven :</b></u></h2>
+  <img class="imagearc6" src="https://static.wikia.nocookie.net/onepiece/images/c/c4/Water_7_Arc.png/revision/latest/scale-to-width-down/350?cb=20131024192909&path-prefix=fr" width="195" height="225">
+  <div class="textearc6">
+    <p>Après avoir quitté Longring Longland, l'équipage de Luffy tombera sur une gare en pleine mer ; la chef de gare (Kokoro) leur explique alors que le Puffing Tom, un train capable de rouler sur des rails flottants, relie plusieurs îles des environs.
+    Suite à cette escale, l'équipage arrive finalement à Water Seven avec la ferme intention de réparer le Vogue Merry grâce aux 300 millions de berrys gagnés à Skypiea. Mais tout ne se passe pas comme prévu : les meilleurs artisans du monde, la Galère Corporation, découvrent que le bateau est trop endommagé pour être retapé, une partie de l'argent est volé par la Franky Family (un groupe de brigands) et Robin disparaît mystérieusement. De son côté, Pipo ne supporte pas l'idée de changer de navire et quitte l'équipage. Mais en dehors de cela, la ville elle-même est secouée par la tentative d'assassinat du maire Iceburg.
+    Après tous ces ennuis, Luffy finit par découvrir l'existence du CP9, une unité secrète au service du gouvernement mondial, et leur véritable mission en voulant retrouver la trace de Robin. Las, il échoue à tirer cette dernière de leurs griffes et les agents du CP9 quittent Water Seven à bord du Puffing Tom, direction Enies Lobby et la porte de la justice. Alors, avec l'aide de la chef de gare Kokoro, de la Galère Corporation et de Franky, tout l'équipage du chapeau de paille se lance à leur poursuite à bord d'un prototype de train aquatique.</p>
+    <p><b><u>Épisodes :</u></b> 229-263, 35 épisodes <b><u>Tomes :</u></b> 34-39, 6 tomes.</p>
+  </div>
+
+  <div class="bande16"></div>
+
+  <h2 class="nomarc7"><u><b>Arc Enies Lobby :</b></u></h2>
+  <img class="imagearc7" src="https://static.wikia.nocookie.net/onepiece/images/7/73/Arc_Enies_Lobby_Infobox.png/revision/latest/scale-to-width-down/300?cb=20130120110835&path-prefix=fr" width="195" height="225">
+  <div class="textearc7">
+    <p>Cet arc se déroule sur une des trois îles du gouvernement mondial servant d'avant-garde à la Porte de la justice. Dix milles hommes de la marine y séjournent et c'est aussi ici que se trouve le QG du CP9. L'équipage de Luffy, la Franky Family et les artisans de la Galère Corporation y arrivent à l'aide du RocketMan, premier train construit par Tom mais non utilisé jusque-là car dépourvu de frein, afin de libérer Nico Robin qui a été arrêtée par Spandam, le directeur du CP9. On apprend que celui-ci la fait chanter en menaçant de déclencher un « Buster Call », c'est-à-dire une attaque combinée et destructrice de six vice-amiraux, sur Luffy et ses amis si elle ne coopérait pas.
+    Il en faut cependant pour arrêter Luffy et, après avoir symboliquement déclaré la guerre au gouvernement mondial, un long combat s'ouvre entre son équipage et le CP9 d'une part, ses amis et tous les soldats de la Marine présents sur place de l'autre. Entre temps, Spandam déclenche finalement le Buster Call par erreur, ce qui aboutit à la quasi-dévastation de l'île d'Enies Lobby.
+    Suite au combat, l'équipage du chapeau de paille, victorieux, réussit à prendre la fuite et, de retour à Water Seven, ils reçoivent une visite surprise : Monkey D. Garp, le grand-père de Luffy et vice-amiral de la Marine. De son côté, Franky leur construit un nouveau navire pour remplacer le Vogue Merry : le Thousand Sunny, capable de naviguer jusqu'au bout du monde. Franky rejoindra d'ailleurs par la même occasion l'équipage en tant que charpentier.</p>
+    <p><b><u>Épisodes :</u></b> 264-290, 293-302 et 304-312, 46 episodes <b><u>Tomes :</u></b> 39-44, 6 tomes.</p>
+  </div>
+  <div class="bande17"></div>
+
+  <h2 class="nomarc8"><u><b>Arc Sabaody :</b></u></h2>
+  <img class="imagearc8" src="https://static.wikia.nocookie.net/onepiece/images/3/3b/Tome_51_Couverture_VO_Infobox.png/revision/latest/scale-to-width-down/320?cb=20141023211815&path-prefix=fr" width="195" height="225">
+  <div class="textearc8">
+    <p>Luffy et ses amis continuent leur aventure en direction de l'île des Hommes-Poissons, sans savoir comment y parvenir. Heureusement en chemin, ils rencontrent Camie et Octo qui leur expliquent qu'un revêtement spécial pour le bateau est nécessaire pour leur voyage. Ils guident donc l'équipage du Chapeau de Paille vers l'Archipel Sabaody pour que les pirates rencontrent un artisan naval. L'archipel est en fait célèbre pour une Salle de ventes aux enchères. Malheureusement, des pirates de renom se trouvent également sur l'Archipel. Ils sont appelés les « Onze Supernovae » et sont également en quête du Nouveau Monde.
+    En cherchant un artisan, Luffy fait la rencontre de Silvers Rayleigh, jadis le second de Gol D. Roger, mais la pagaille qu'il provoque lors d'une vente d'esclaves provoque l'arrivée sur l'île de l'Amiral Kizaru et du capitaine corsaire Bartholomew Kuma. Le combat tourne rapidement au désavantage des pirates présents et Kuma, grâce au pouvoir de son Fruit du Démon, sépare et envoie chaque membre de l'équipage dans un coin reculé du monde.</p>
+    <p><b><u>Épisodes :</u></b> 385-405, 21 épisodes <b><u>Tomes :</u></b> 50-53, 4 tomes.</p>
+  </div>
+  <div class="bande18"></div>
+
+  <h2 class="nomarc9"><u><b>Arc Impel Down :</b></u></h2>
+  <img class="imagearc9" src="https://static.wikia.nocookie.net/onepiece/images/f/ff/Impel_Down_Arc2.png/revision/latest/scale-to-width-down/350?cb=20131027141216&path-prefix=fr" width="195" height="225">
+  <div class="textearc9">
+    <p>Accompagné de Boa Hancock, Luffy se rend à Impel Down afin de sauver son frère Ace retenu prisonnier là-bas. Impel Down est la prison sous-marine du Gouvernement Mondial. Impel down est une prison composée officiellement de 5 étages et officieusement de 6 : l'enfer pourpre (étage 1), l'enfer des bêtes (étage 2), l'enfer de la faim (étage 3), l'enfer ardent (étage 4), l'enfer des glaces (étage 5) et l'enfer éternel (étage 6). À chaque étage, on retrouve différentes classes de hors-la-loi, plus l'étage est élevé, plus les criminels sont dangereux. Quant au niveau 6, c'est le lieu où résident les criminels ayant bouleversé le monde, tel que Crocodile l'ancien Capitaine Corsaire.</p>
+    <p><b><u>Épisodes :</u></b> 422-425 et 430-452, 27 épisodes <b><u>Tomes :</u></b> 54-56, 3 tomes.</p>
+  </div>
+  <div class="bande19"></div>
+
+  <h2 class="nomarc10"><u><b>Arc Marine Ford :</b></u></h2>
+  <img class="imagearc10" src="https://static.wikia.nocookie.net/onepiece/images/e/e7/Luffy_Allies.png/revision/latest/scale-to-width-down/350?cb=20131027132813&path-prefix=fr" width="300" height="195">
+  <div class="textearc10">
+    <p><a href="https://onepiece.fandom.com/fr/wiki/Arc_Marine_Ford"> Page sur Marine Ford</p></a>
+    <p><b><u>Épisodes :</u></b> 457-489, 32 épisode <b><u>Tomes :</u></b> 56-59, 4 tomes.</p>
+  </div>
+  <div class="bande20"></div>
+
+  <h2 class="nomarc11"><u><b>Arc Retour à Sabaody :</b></u></h2>
+  <img class="imagearc11" src="https://static.wikia.nocookie.net/onepiece/images/9/94/Arc_Retour_%C3%A0_Sabaody.png/revision/latest/scale-to-width-down/350?cb=20210116234948&path-prefix=fr" width="195" height="225">
+  <div class="textearc11">
+    <p>Deux ans plus tard, l'équipage se retrouve petit à petit sur l'archipel Shabondy. Chacun a amélioré ses techniques de combat, ce qui leur est utile rapidement car au même moment, des pirates « sosies » ont usurpé l'identité de l'équipage du Chapeau de paille et tenté de recruter parmi les pirates les plus dangereux. Luffy et son équipage se font donc repérer par la Marine quand ils rétablissent la vérité alors que la Marine tente d'arrêter les « sosies ». C'est alors que le chef de la division scientifique fait son apparition, Sentomaru. En voyant la supercherie, Sentomaru vainc ce dernier très facilement, avant que Luffy, Zoro et Sanjy ne parviennent à détruire des Pacifistas sur leur chemin. L'équipage se réunit sur le bateau, et prend la direction de l'île des hommes-poissons, en plongeant dans la mer avec le Thousand Sunny alors enrobé d'une grande bulle. Luffy a appri a maitriser le HAKI DES ROIS ( il peut assomer des gens a distance ).</p>
+    <p><b><u>Épisodes :</u></b> 517-522, 5 épisodes <b><u>Tomes :</u></b> 61, 1 tome.</p>
+  </div>
+  <div class="bande21"></div>
+
+  <h2 class="nomarc12"><u><b>Arc Dressrosa :</b></u></h2>
+  <img class="imagearc12" src="https://static.wikia.nocookie.net/onepiece/images/b/b5/Arc_Dressrosa_Infobox.png/revision/latest/scale-to-width-down/350?cb=20150812212444&path-prefix=fr" width="195" height="225">
+  <div class="textearc12">
+    <p>L'Arc Dressrosa est le vingt-septième arc dans la série et le second de la Saga Alliance Pirate de One Piece, suivant l'Arc Punk Hazard. Les Chapeaux de Paille, Trafalgar Law, Kinemon et Momonosuke, ayant formé une alliance, voyagent jusqu'à Dressrosa pour mettre en oeuvre leurs plans. Dressrosa est la seconde île que Les Chapeaux de Paille découvrent dans le Nouveau Monde, et est gouvernée par le Grand Corsaire, Don Quichotte Doflamingo.</p>
+    <p><b><u>Épisodes :</u></b> 629-746, 118 épisodes <b><u>Tomes :</u></b> 70-80, 11 tomes.</p>
+  </div>
+  <div class="bande22"></div>
+
+  <h2 class="nomarc13"><u><b>Whole Cake Island :</b></u></h2>
+  <img class="imagearc13" src="https://static.wikia.nocookie.net/onepiece/images/f/f9/Arc_Whole_Cake.png/revision/latest/scale-to-width-down/350?cb=20180226115439&path-prefix=fr" width="195" height="225">
+  <div class="textearc13">
+    <p>L'Arc Whole Cake Island est le vingt-neuvième arc dans la série et le deuxième de la Saga Quatre Empereurs de One Piece, suivant l'Arc Zo. L'alliance des Ninjas/Samourai/Minks/Pirates se sépare en quatre groupes et le groupe composé de Luffy, Nami, Chopper, Brook, Pekoms et Pedro part pour Whole Cake Island. Ils doivent récupérer Sanji, qui est censé épouser Charlotte Pudding afin de sceller une alliance entre le Germa 66 et l'Équipage de Big Mom. Ils seront rejoints par Carrot, mais seront séparés de Pekoms une fois sur les territoires ennemis.</p>
+    <p><b><u>Épisodes :</u></b> 783 - 877, 95 épisodes <b><u>Tomes :</u></b> 82 - 90, 9 tomes.</p>
+  </div>
+  <div class="bande23"></div>
+
+  <h2 class="nomarc14"><u><b>Arc Pays des Wa :</b></u></h2>
+  <img class="imagearc14" src="https://static.wikia.nocookie.net/onepiece/images/d/d8/Arc_Wano.png/revision/latest/scale-to-width-down/350?cb=20190615102959&path-prefix=fr" width="195" height="225">
+  <div class="textearc14">
+    <p>L'arc Pays des Wa est le trente et unième Arc de la série et le quatrième Arc de la Saga Quatre Empereurs de One Piece, l'arc suivant celui de la Rêverie. L'Alliance Ninja-Pirate-Mink-Samouraï met son plan en marche pour recruter les Pirates de Barbe Blanche et libérer le Pays des Wa du contrôle de Kaido et de son shogun.</p>
+    <p><b><u>Épisodes :</u></b> 890 - 894 et 897 - ... , ... épisodes <b><u>Tomes :</u></b> 90 - ...,  ...tomes.</p>
+  </div>
+  <div class="bande24"></div>
+
+
+
+
+

@@ -1,0 +1,575 @@
+.zoomfranky1 {
+width: 320px;
+height: 240px;
+}
+.imagefranky1 {
+width: 100%;
+height: 100%;
+}
+.imagefranky1 img {
+/* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+-webkit-transition: all 1s ease; /* Safari et Chrome */
+-moz-transition: all 1s ease; /* Firefox */
+-ms-transition: all 1s ease; /* Internet Explorer 9 */
+-o-transition: all 1s ease; /* Opera */
+transition: all 1s ease;
+}
+.imagefranky1:hover img {
+/* L'image est grossie de 25% */
+-webkit-transform:scale(1.10); /* Safari et Chrome */
+-moz-transform:scale(1.10); /* Firefox */
+-ms-transform:scale(1.10); /* Internet Explorer 9 */
+-o-transform:scale(1.10); /* Opera */
+transform:scale(1.10);
+}
+
+.zoomrobin1 {
+width: 320px;
+height: 240px;
+}
+.imagerobin1 {
+width: 100%;
+height: 100%;
+}
+.imagerobin1 img {
+/* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+-webkit-transition: all 1s ease; /* Safari et Chrome */
+-moz-transition: all 1s ease; /* Firefox */
+-ms-transition: all 1s ease; /* Internet Explorer 9 */
+-o-transition: all 1s ease; /* Opera */
+transition: all 1s ease;
+}
+.imagerobin1:hover img {
+/* L'image est grossie de 25% */
+-webkit-transform:scale(1.10); /* Safari et Chrome */
+-moz-transform:scale(1.10); /* Firefox */
+-ms-transform:scale(1.10); /* Internet Explorer 9 */
+-o-transform:scale(1.10); /* Opera */
+transform:scale(1.10);
+}
+
+.zoomnami1 {
+width: 320px;
+height: 240px;
+}
+.imagenami1 {
+width: 100%;
+height: 100%;
+}
+.imagenami1 img {
+/* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+-webkit-transition: all 1s ease; /* Safari et Chrome */
+-moz-transition: all 1s ease; /* Firefox */
+-ms-transition: all 1s ease; /* Internet Explorer 9 */
+-o-transition: all 1s ease; /* Opera */
+transition: all 1s ease;
+}
+.imagenami1:hover img {
+/* L'image est grossie de 25% */
+-webkit-transform:scale(1.10); /* Safari et Chrome */
+-moz-transform:scale(1.10); /* Firefox */
+-ms-transform:scale(1.10); /* Internet Explorer 9 */
+-o-transform:scale(1.10); /* Opera */
+transform:scale(1.10);
+}
+
+.zoomusopp1 {
+width: 320px;
+height: 240px;
+}
+.imageusopp1 {
+width: 100%;
+height: 100%;
+}
+.imageusopp1 img {
+/* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+-webkit-transition: all 1s ease; /* Safari et Chrome */
+-moz-transition: all 1s ease; /* Firefox */
+-ms-transition: all 1s ease; /* Internet Explorer 9 */
+-o-transition: all 1s ease; /* Opera */
+transition: all 1s ease;
+}
+.imageusopp1:hover img {
+/* L'image est grossie de 25% */
+-webkit-transform:scale(1.10); /* Safari et Chrome */
+-moz-transform:scale(1.10); /* Firefox */
+-ms-transform:scale(1.10); /* Internet Explorer 9 */
+-o-transform:scale(1.10); /* Opera */
+transform:scale(1.10);
+}
+
+.zoomzoro1 {
+width: 320px;
+height: 240px;
+}
+.imagezoro1 {
+width: 100%;
+height: 100%;
+}
+.imagezoro1 img {
+/* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+-webkit-transition: all 1s ease; /* Safari et Chrome */
+-moz-transition: all 1s ease; /* Firefox */
+-ms-transition: all 1s ease; /* Internet Explorer 9 */
+-o-transition: all 1s ease; /* Opera */
+transition: all 1s ease;
+}
+.imagezoro1:hover img {
+/* L'image est grossie de 25% */
+-webkit-transform:scale(1.10); /* Safari et Chrome */
+-moz-transform:scale(1.10); /* Firefox */
+-ms-transform:scale(1.10); /* Internet Explorer 9 */
+-o-transform:scale(1.10); /* Opera */
+transform:scale(1.10);
+}
+
+.zoomsanji1 {
+width: 320px;
+height: 240px;
+}
+.imagesanji1 {
+width: 100%;
+height: 100%;
+}
+.imagesanji1 img {
+/* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+-webkit-transition: all 1s ease; /* Safari et Chrome */
+-moz-transition: all 1s ease; /* Firefox */
+-ms-transition: all 1s ease; /* Internet Explorer 9 */
+-o-transition: all 1s ease; /* Opera */
+transition: all 1s ease;
+}
+.imagesanji1:hover img {
+/* L'image est grossie de 25% */
+-webkit-transform:scale(1.10); /* Safari et Chrome */
+-moz-transform:scale(1.10); /* Firefox */
+-ms-transform:scale(1.10); /* Internet Explorer 9 */
+-o-transform:scale(1.10); /* Opera */
+transform:scale(1.10);
+}
+
+.zoomluffy1 {
+width: 320px;
+height: 240px;
+}
+.imageluffy1 {
+width: 100%;
+height: 100%;
+}
+.imageluffy1 img {
+/* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+-webkit-transition: all 1s ease; /* Safari et Chrome */
+-moz-transition: all 1s ease; /* Firefox */
+-ms-transition: all 1s ease; /* Internet Explorer 9 */
+-o-transition: all 1s ease; /* Opera */
+transition: all 1s ease;
+}
+.imageluffy1:hover img {
+/* L'image est grossie de 25% */
+-webkit-transform:scale(1.10); /* Safari et Chrome */
+-moz-transform:scale(1.10); /* Firefox */
+-ms-transform:scale(1.10); /* Internet Explorer 9 */
+-o-transform:scale(1.10); /* Opera */
+transform:scale(1.10);
+}
+
+.zoomchopper1 {
+width: 320px;
+height: 240px;
+}
+.imagechopper1 {
+width: 100%;
+height: 100%;
+}
+.imagechopper1 img {
+/* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+-webkit-transition: all 1s ease; /* Safari et Chrome */
+-moz-transition: all 1s ease; /* Firefox */
+-ms-transition: all 1s ease; /* Internet Explorer 9 */
+-o-transition: all 1s ease; /* Opera */
+transition: all 1s ease;
+}
+.imagechopper1:hover img {
+/* L'image est grossie de 25% */
+-webkit-transform:scale(1.10); /* Safari et Chrome */
+-moz-transform:scale(1.10); /* Firefox */
+-ms-transform:scale(1.10); /* Internet Explorer 9 */
+-o-transform:scale(1.10); /* Opera */
+transform:scale(1.10);
+}
+
+.zoombrook1 {
+width: 320px;
+height: 240px;
+}
+.imagebrook1 {
+width: 100%;
+height: 100%;
+}
+.imagebrook1 img {
+/* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+-webkit-transition: all 1s ease; /* Safari et Chrome */
+-moz-transition: all 1s ease; /* Firefox */
+-ms-transition: all 1s ease; /* Internet Explorer 9 */
+-o-transition: all 1s ease; /* Opera */
+transition: all 1s ease;
+}
+.imagebrook1:hover img {
+/* L'image est grossie de 25% */
+-webkit-transform:scale(1.10); /* Safari et Chrome */
+-moz-transform:scale(1.10); /* Firefox */
+-ms-transform:scale(1.10); /* Internet Explorer 9 */
+-o-transform:scale(1.10); /* Opera */
+transform:scale(1.10);
+}
+
+.zoomsunny1 {
+width: 320px;
+height: 240px;
+}
+.imagesunny1 {
+width: 100%;
+height: 100%;
+}
+.imagesunny1 img {
+/* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+-webkit-transition: all 1s ease; /* Safari et Chrome */
+-moz-transition: all 1s ease; /* Firefox */
+-ms-transition: all 1s ease; /* Internet Explorer 9 */
+-o-transition: all 1s ease; /* Opera */
+transition: all 1s ease;
+}
+.imagesunny1:hover img {
+/* L'image est grossie de 25% */
+-webkit-transform:scale(1.10); /* Safari et Chrome */
+-moz-transform:scale(1.10); /* Firefox */
+-ms-transform:scale(1.10); /* Internet Explorer 9 */
+-o-transform:scale(1.10); /* Opera */
+transform:scale(1.10);
+}
+
+
+.zoomfranky2 {
+width: 320px;
+height: 240px;
+}
+.imagefranky2 {
+width: 100%;
+height: 100%;
+}
+.imagefranky2 img {
+/* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+-webkit-transition: all 1s ease; /* Safari et Chrome */
+-moz-transition: all 1s ease; /* Firefox */
+-ms-transition: all 1s ease; /* Internet Explorer 9 */
+-o-transition: all 1s ease; /* Opera */
+transition: all 1s ease;
+}
+.imagefranky2:hover img {
+/* L'image est grossie de 25% */
+-webkit-transform:scale(1.10); /* Safari et Chrome */
+-moz-transform:scale(1.10); /* Firefox */
+-ms-transform:scale(1.10); /* Internet Explorer 9 */
+-o-transform:scale(1.10); /* Opera */
+transform:scale(1.10);
+}
+
+.zoomrobin2 {
+width: 320px;
+height: 240px;
+}
+.imagerobin2 {
+width: 100%;
+height: 100%;
+}
+.imagerobin2 img {
+/* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+-webkit-transition: all 1s ease; /* Safari et Chrome */
+-moz-transition: all 1s ease; /* Firefox */
+-ms-transition: all 1s ease; /* Internet Explorer 9 */
+-o-transition: all 1s ease; /* Opera */
+transition: all 1s ease;
+}
+.imagerobin2:hover img {
+/* L'image est grossie de 25% */
+-webkit-transform:scale(1.10); /* Safari et Chrome */
+-moz-transform:scale(1.10); /* Firefox */
+-ms-transform:scale(1.10); /* Internet Explorer 9 */
+-o-transform:scale(1.10); /* Opera */
+transform:scale(1.10);
+}
+
+.zoomnami2 {
+width: 320px;
+height: 240px;
+}
+.imagenami2 {
+width: 100%;
+height: 100%;
+}
+.imagenami2 img {
+/* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+-webkit-transition: all 1s ease; /* Safari et Chrome */
+-moz-transition: all 1s ease; /* Firefox */
+-ms-transition: all 1s ease; /* Internet Explorer 9 */
+-o-transition: all 1s ease; /* Opera */
+transition: all 1s ease;
+}
+.imagenami2:hover img {
+/* L'image est grossie de 25% */
+-webkit-transform:scale(1.10); /* Safari et Chrome */
+-moz-transform:scale(1.10); /* Firefox */
+-ms-transform:scale(1.10); /* Internet Explorer 9 */
+-o-transform:scale(1.10); /* Opera */
+transform:scale(1.10);
+}
+
+.zoomusopp2 {
+width: 320px;
+height: 240px;
+}
+.imageusopp2 {
+width: 100%;
+height: 100%;
+}
+.imageusopp2 img {
+/* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+-webkit-transition: all 1s ease; /* Safari et Chrome */
+-moz-transition: all 1s ease; /* Firefox */
+-ms-transition: all 1s ease; /* Internet Explorer 9 */
+-o-transition: all 1s ease; /* Opera */
+transition: all 1s ease;
+}
+.imageusopp2:hover img {
+/* L'image est grossie de 25% */
+-webkit-transform:scale(1.10); /* Safari et Chrome */
+-moz-transform:scale(1.10); /* Firefox */
+-ms-transform:scale(1.10); /* Internet Explorer 9 */
+-o-transform:scale(1.10); /* Opera */
+transform:scale(1.10);
+}
+
+.zoomzoro2 {
+width: 320px;
+height: 240px;
+}
+.imagezoro2 {
+width: 100%;
+height: 100%;
+}
+.imagezoro2 img {
+/* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+-webkit-transition: all 1s ease; /* Safari et Chrome */
+-moz-transition: all 1s ease; /* Firefox */
+-ms-transition: all 1s ease; /* Internet Explorer 9 */
+-o-transition: all 1s ease; /* Opera */
+transition: all 1s ease;
+}
+.imagezoro2:hover img {
+/* L'image est grossie de 25% */
+-webkit-transform:scale(1.10); /* Safari et Chrome */
+-moz-transform:scale(1.10); /* Firefox */
+-ms-transform:scale(1.10); /* Internet Explorer 9 */
+-o-transform:scale(1.10); /* Opera */
+transform:scale(1.10);
+}
+
+.zoomsanji2 {
+width: 320px;
+height: 240px;
+}
+.imagesanji2 {
+width: 100%;
+height: 100%;
+}
+.imagesanji2 img {
+/* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+-webkit-transition: all 1s ease; /* Safari et Chrome */
+-moz-transition: all 1s ease; /* Firefox */
+-ms-transition: all 1s ease; /* Internet Explorer 9 */
+-o-transition: all 1s ease; /* Opera */
+transition: all 1s ease;
+}
+.imagesanji2:hover img {
+/* L'image est grossie de 25% */
+-webkit-transform:scale(1.10); /* Safari et Chrome */
+-moz-transform:scale(1.10); /* Firefox */
+-ms-transform:scale(1.10); /* Internet Explorer 9 */
+-o-transform:scale(1.10); /* Opera */
+transform:scale(1.10);
+}
+
+.zoomluffy2 {
+width: 320px;
+height: 240px;
+}
+.imageluffy2 {
+width: 100%;
+height: 100%;
+}
+.imageluffy2 img {
+/* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+-webkit-transition: all 1s ease; /* Safari et Chrome */
+-moz-transition: all 1s ease; /* Firefox */
+-ms-transition: all 1s ease; /* Internet Explorer 9 */
+-o-transition: all 1s ease; /* Opera */
+transition: all 1s ease;
+}
+.imageluffy2:hover img {
+/* L'image est grossie de 25% */
+-webkit-transform:scale(1.10); /* Safari et Chrome */
+-moz-transform:scale(1.10); /* Firefox */
+-ms-transform:scale(1.10); /* Internet Explorer 9 */
+-o-transform:scale(1.10); /* Opera */
+transform:scale(1.10);
+}
+
+.zoomchopper2 {
+width: 320px;
+height: 240px;
+}
+.imagechopper2 {
+width: 100%;
+height: 100%;
+}
+.imagechopper2 img {
+/* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+-webkit-transition: all 1s ease; /* Safari et Chrome */
+-moz-transition: all 1s ease; /* Firefox */
+-ms-transition: all 1s ease; /* Internet Explorer 9 */
+-o-transition: all 1s ease; /* Opera */
+transition: all 1s ease;
+}
+.imagechopper2:hover img {
+/* L'image est grossie de 25% */
+-webkit-transform:scale(1.10); /* Safari et Chrome */
+-moz-transform:scale(1.10); /* Firefox */
+-ms-transform:scale(1.10); /* Internet Explorer 9 */
+-o-transform:scale(1.10); /* Opera */
+transform:scale(1.10);
+}
+
+.zoombrook2 {
+width: 320px;
+height: 240px;
+}
+.imagebrook2 {
+width: 100%;
+height: 100%;
+}
+.imagebrook2 img {
+/* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+-webkit-transition: all 1s ease; /* Safari et Chrome */
+-moz-transition: all 1s ease; /* Firefox */
+-ms-transition: all 1s ease; /* Internet Explorer 9 */
+-o-transition: all 1s ease; /* Opera */
+transition: all 1s ease;
+}
+.imagebrook2:hover img {
+/* L'image est grossie de 25% */
+-webkit-transform:scale(1.10); /* Safari et Chrome */
+-moz-transform:scale(1.10); /* Firefox */
+-ms-transform:scale(1.10); /* Internet Explorer 9 */
+-o-transform:scale(1.10); /* Opera */
+transform:scale(1.10);
+}
+
+.zoomsunny2 {
+width: 320px;
+height: 240px;
+}
+.imagesunny2 {
+width: 100%;
+height: 100%;
+}
+.imagesunny2 img {
+/* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+-webkit-transition: all 1s ease; /* Safari et Chrome */
+-moz-transition: all 1s ease; /* Firefox */
+-ms-transition: all 1s ease; /* Internet Explorer 9 */
+-o-transition: all 1s ease; /* Opera */
+transition: all 1s ease;
+}
+.imagesunny2:hover img {
+/* L'image est grossie de 25% */
+-webkit-transform:scale(1.10); /* Safari et Chrome */
+-moz-transform:scale(1.10); /* Firefox */
+-ms-transform:scale(1.10); /* Internet Explorer 9 */
+-o-transform:scale(1.10); /* Opera */
+transform:scale(1.10);
+}
+
+.zoompre1 {
+width: 320px;
+height: 240px;
+}
+.imagepre1 {
+width: 100%;
+height: 100%;
+}
+.imagepre1 img {
+/* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+-webkit-transition: all 1s ease; /* Safari et Chrome */
+-moz-transition: all 1s ease; /* Firefox */
+-ms-transition: all 1s ease; /* Internet Explorer 9 */
+-o-transition: all 1s ease; /* Opera */
+transition: all 1s ease;
+}
+.imagepre1:hover img {
+/* L'image est grossie de 25% */
+-webkit-transform:scale(1.10); /* Safari et Chrome */
+-moz-transform:scale(1.10); /* Firefox */
+-ms-transform:scale(1.10); /* Internet Explorer 9 */
+-o-transform:scale(1.10); /* Opera */
+transform:scale(1.10);
+}
+
+.zoompre2 {
+width: 320px;
+height: 240px;
+}
+.imagepre2 {
+width: 100%;
+height: 100%;
+}
+.imagepre2 img {
+/* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+-webkit-transition: all 1s ease; /* Safari et Chrome */
+-moz-transition: all 1s ease; /* Firefox */
+-ms-transition: all 1s ease; /* Internet Explorer 9 */
+-o-transition: all 1s ease; /* Opera */
+transition: all 1s ease;
+}
+.imagepre2:hover img {
+/* L'image est grossie de 25% */
+-webkit-transform:scale(1.10); /* Safari et Chrome */
+-moz-transform:scale(1.10); /* Firefox */
+-ms-transform:scale(1.10); /* Internet Explorer 9 */
+-o-transform:scale(1.10); /* Opera */
+transform:scale(1.10);
+}
+
+.zoompre3 {
+width: 320px;
+height: 240px;
+}
+.imagepre3 {
+width: 100%;
+height: 100%;
+}
+.imagepre3 img {
+/* La transition s'applique à la fois sur la largeur et la hauteur, avec une durée d'une seconde. */
+-webkit-transition: all 1s ease; /* Safari et Chrome */
+-moz-transition: all 1s ease; /* Firefox */
+-ms-transition: all 1s ease; /* Internet Explorer 9 */
+-o-transition: all 1s ease; /* Opera */
+transition: all 1s ease;
+}
+.imagepre3:hover img {
+/* L'image est grossie de 25% */
+-webkit-transform:scale(1.10); /* Safari et Chrome */
+-moz-transform:scale(1.10); /* Firefox */
+-ms-transform:scale(1.10); /* Internet Explorer 9 */
+-o-transform:scale(1.10); /* Opera */
+transform:scale(1.10);
+}

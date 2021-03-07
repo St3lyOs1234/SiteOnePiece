@@ -1,0 +1,884 @@
+@charset "UTF-8";
+@media all and (max-width: 1024px)
+{
+	html
+	{
+		width: auto;
+	}
+}
+
+/*-------------ici style body--------------------*/
+body,html{
+	margin: 0;
+	padding: 0;
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "Sans-serif";
+	box-sizing: border-box;
+	background-color: #222222
+
+/*-------------ici style slider--------------------*/
+}
+#slider{
+	background-color: #95CDFF;
+	width: 1536px;
+	height: 550px;
+	position:relative;
+}
+#img{
+	width: 100%;
+	height: 550px;
+	position: absolute;
+}
+#btn_left{
+	height: 100px;
+	width: 100px;
+	left: 0px;
+	top: 0px;
+}
+#btn_right{
+	height: 100px;
+	width: 100px;
+	right: 0px;
+	top: 0px;
+}
+.left{
+	position: absolute;
+	top: 35%;
+	left: 10px;
+	width: 60px;
+	height: 70px;
+	opacity: 0.4;
+	
+
+}
+.left:hover{
+	opacity: 1;
+}
+	
+.right{
+	position: absolute;
+	top: 35%;
+	right: 10px;
+	width: 60px;
+	height: 70px;
+	opacity: 0.4;
+	
+
+}
+.right:hover{
+	opacity: 1;
+}
+
+a.a {
+	color: #0098D8;
+}
+
+/*-------------ici style entete--------------------*/
+div.entete_titre{
+	background: #0098D8;
+	text-align: center;
+	color: #FFFFFF;
+	padding: 20px;
+	position: absolute;
+	top: 324px;
+	line-height: normal;
+}
+div.entete_titre h1{
+	font-size: 40px;
+	line-height: normal;
+
+}
+div.rs{
+position: absolute;text-align: center;}
+div.sociaux{margin: 5px;}		
+
+/*-------------ici style Entete Autre Pages--------------------*/
+
+#btn_left_reste{
+	height: 100px;
+	width: 100px;
+	left: 0px;
+	top: 0px;
+}
+#btn_right_reste{
+	height: 100px;
+	width: 100px;
+	right: 0px;
+	top: 0px;
+}
+.left_reste{
+	position: absolute;
+	top: 40%;
+	left: 10px;
+	width: 60px;
+	height: 70px;
+	opacity: 0.4;
+	
+
+}
+.left_reste:hover{
+	opacity: 1;
+}
+	
+.right_reste{
+	position: absolute;
+	top: 40%;
+	right: 10px;
+	width: 60px;
+	height: 70px;
+	opacity: 0.4;
+	
+
+}
+.right_reste:hover{
+	opacity: 1;
+}
+
+/*-------------ici style Eiichiro Oda--------------------*/
+
+h1.titrechap {
+	color: white;
+	text-align: center;
+}
+
+div.texteeii {
+	color: white;
+	position: absolute;
+	top: 650px; left: 700px;
+}
+img.imgoda {
+	position: absolute;
+	left: 20px;
+}
+
+/*-------------ici style Les Personnages--------------------*/
+
+/*-------------ici style Les Personnages (Luffy)--------------------*/
+
+img.luffy1 {
+	position: absolute;
+	left: 20px; top: 635px;
+}
+
+img.luffy2 {
+	position: absolute;
+	right: 20px; top: 635px;
+}
+
+h1.luffytitre {
+	color: white;
+	position: absolute;
+	left: 625px;
+	top: 615px;
+}
+
+div.texteluffy {
+	color: white;
+	position: absolute;
+	top: 690px; left: 510px;
+	width:600px;
+	height:50px;
+
+}
+
+/*-------------ici style Les Personnages (Bande Blanche)--------------------*/
+
+div.bande1 {
+	width: 1100px;
+	height: 10px;
+	background-color: white;
+	position: absolute;
+	top: 1115px; left: 220px;
+}
+
+/*-------------ici style Les Personnages (Sanji )--------------------*/
+
+img.sanji1 {
+	position: absolute;
+	left: 20px;
+	top: 1200px;
+}
+
+img.sanji2 {
+	position: absolute;
+	right: 20px;
+	top: 1200px;
+}
+
+h1.sanjititre {
+	color: white;
+	position: absolute;
+	top: 1200px;
+	left: 725px;
+}
+
+div.textesanji {
+	color: white;
+	position: absolute;
+	top: 1300px; left: 510px;
+	width:600px;
+	height:50px;
+}
+
+/*-------------ici style Les Personnages (Bande Blanche)--------------------*/
+
+div.bande2 {
+	width: 1100px;
+	height: 10px;
+	background-color: white;
+	position: absolute;
+	top: 1675px; left: 220px;
+}
+
+/*-------------ici style Les Personnages (Zoro)--------------------*/
+
+img.zoro1 {
+	position: absolute;
+	top: 1760px; left:20px;
+}
+
+img.zoro2 {
+	position: absolute;
+	right: 20px; top: 1760px;
+}
+
+h1.zorotitre {
+	color: white;
+	position: absolute;
+	top: 1740px;
+	left: 650px;
+}
+
+div.textezoro {
+	color: white;
+	position: absolute;
+	top: 1825px; left: 510px;
+	width: 600px;
+	height: 50px
+}
+
+/*-------------ici style Les Personnages (Bande Blanche)--------------------*/
+
+div.bande3 {
+	width: 1100px;
+	height: 10px;
+	background-color: white;
+	position: absolute;
+	top: 2235px; left: 220px;
+}
+
+/*-------------ici style Les Personnages (Usopp)--------------------*/
+
+img.usopp1 {
+	position: absolute;
+	top: 2320px; left: 20px;
+}
+
+img.usopp2 {
+	position: absolute;
+	top: 2320px; right: 20px;
+}
+
+h1.usopptitre {
+	color: white;
+	position: absolute;
+	top: 2300px;
+	left: 725px;
+}
+
+div.texteusopp {
+	color: white;
+	position: absolute;
+	top: 2375px; left: 510px;
+	width: 600px;
+	height: 50px
+}
+
+/*-------------ici style Les Personnages (Bande Blanche)--------------------*/
+
+div.bande4 {
+	width: 1100px;
+	height: 10px;
+	background-color: white;
+	position: absolute;
+	top: 2795px; left: 220px;
+}
+
+/*-------------ici style Les Personnages (Bande Blanche)--------------------*/
+
+img.nami1 {
+	position: absolute;
+	top: 2880px; left: 20px;
+}
+
+img.nami2 {
+	position: absolute;
+	top: 2880px; right: 20px;
+}
+
+h1.namititre {
+	color: white;
+	position: absolute;
+	top: 2850px;
+	left: 725px;
+}
+
+div.textenami {
+	color: white;
+	position: absolute;
+	top: 2975px; left: 510px;
+	width: 600px;
+	height: 50px
+}
+
+/*-------------ici style Les Personnages (Bande Blanche)--------------------*/
+
+div.bande5 {
+	width: 1100px;
+	height: 10px;
+	background-color: white;
+	position: absolute;
+	top: 3355px; left: 220px;
+}
+
+/*-------------ici style Les Personnages (Robin)--------------------*/
+
+img.robin1 {
+	position: absolute;
+	top: 3440px; left: 20px;
+}
+
+img.robin2 {
+	position: absolute;
+	top: 3440px; right: 20px;
+}
+
+h1.robintitre {
+	color: white;
+	position: absolute;
+	top: 3410px;
+	left: 700px;
+}
+
+div.texterobin {
+	color: white;
+	position: absolute;
+	top: 3480px; left: 510px;
+	width: 600px;
+	height: 50px
+}
+
+/*-------------ici style Les Personnages (Bande Blanche)--------------------*/
+
+div.bande6 {
+	width: 1100px;
+	height: 10px;
+	background-color: white;
+	position: absolute;
+	top: 3915px; left: 220px;
+}
+
+/*-------------ici style Les Personnages (Franky)--------------------*/
+
+img.franky1 {
+	position: absolute;
+	top: 4000px; left: 20px;
+}
+
+img.franky2 {
+	position: absolute;
+	top: 4000px; right: 20px;
+}
+
+h1.frankytitre {
+	color: white;
+	position: absolute;
+	top: 3970px;
+	left: 725px;
+}
+
+div.textefranky {
+	color: white;
+	position: absolute;
+	top: 4050px; left: 510px;
+	width: 600px;
+	height: 50px
+}
+
+/*-------------ici style Les Personnages (Bande Blanche)--------------------*/
+
+div.bande7 {
+	width: 1100px;
+	height: 10px;
+	background-color: white;
+	position: absolute;
+	top: 4475px; left: 220px;
+}
+
+/*-------------ici style Les Personnages (Chopper)--------------------*/
+
+img.chopper1 {
+	position: absolute;
+	top: 4560px; left: 20px;
+}
+
+img.chopper2 {
+	position: absolute;
+	top: 4560px; right: 20px;
+}
+
+h1.choppertitre {
+	color: white;
+	position: absolute;
+	top: 4530px;
+	left: 650px;
+}
+
+div.textechopper {
+	color: white;
+	position: absolute;
+	top: 4620px; left: 510px;
+	width: 600px;
+	height: 50px
+}
+
+/*-------------ici style Les Personnages (Bande Blanche)--------------------*/
+
+div.bande8 {
+	width: 1100px;
+	height: 10px;
+	background-color: white;
+	position: absolute;
+	top: 5035px; left: 220px;
+}
+
+/*-------------ici style Les Personnages (Brook)--------------------*/
+
+img.brook1 {
+	position: absolute;
+	top: 5120px; left: 20px;
+}
+
+img.brook2 {
+	position: absolute;
+	top: 5120px; right: 20px;
+}
+
+h1.brooktitre {
+	color: white;
+	position: absolute;
+	top: 5090px;
+	left: 725px;
+}
+
+div.textebrook {
+	color: white;
+	position: absolute;
+	top: 5170px; left: 510px;
+	width: 600px;
+	height: 50px
+}
+
+/*-------------ici style Les Personnages (Bande Blanche)--------------------*/
+
+div.bande9 {
+	width: 1100px;
+	height: 10px;
+	background-color: white;
+	position: absolute;
+	top: 5595px; left: 220px;
+}
+
+/*-------------ici style Les Personnages (Sunny)--------------------*/
+
+img.sunny1 {
+	position: absolute;
+	top: 5680px; left: 20px;
+}
+
+img.sunny2 {
+	position: absolute;
+	top: 5680px; right: 20px;
+}
+
+h1.sunnytitre {
+	color: white;
+	position: absolute;
+	top: 5650px;
+	left: 650px;
+}
+
+div.textesunny {
+	color: white;
+	position: absolute;
+	top: 5740px; left: 510px;
+	width: 600px;
+	height: 50px
+}
+
+/*-------------ici style Les Personnages (Bande Blanche)--------------------*/
+
+div.bande10 {
+	width: 1519px;
+	height: 10px;
+	background-color: white;
+	position: absolute;
+	top: 6155px; left: 0px;
+}
+
+/*--------------------------------------------------------------------------*/
+/*-----------------------ici style Les Arcs---------------------------------*/
+/*--------------------------------------------------------------------------*/
+
+/*-------------ici style Les Arcs (Titres Acrs)--------------------*/
+
+h2.nomarc1 {
+	color: white;
+	position: absolute;
+	top: 625px; left: 20px;
+}
+
+h2.nomarc2 {
+	color: white;
+	position: absolute;
+	left: 20px; top: 930px;
+}
+
+h2.nomarc3 {
+	color: white;
+	position: absolute;
+	left: 20px; top: 1175px;
+}
+
+h2.nomarc4 {
+	color: white;
+	position: absolute;
+	left: 20px; top: 1415px;
+}
+
+h2.nomarc5 {
+	color: white;
+	position: absolute;
+	left: 20px; top: 1815px;
+}
+
+h2.nomarc6 {
+	color: white;
+	position: absolute;
+	left: 20px; top: 2175px;
+}
+
+h2.nomarc7 {
+	color: white;
+	position: absolute;
+	left: 20px; top: 2550px;
+}
+
+h2.nomarc8 {
+	color: white;
+	position: absolute;
+	left: 20px; top: 2980px;
+}
+h2.nomarc9 {
+	color: white;
+	position: absolute;
+	left: 20px; top: 3315px;
+}
+h2.nomarc10 {
+	color: white;
+	position: absolute;
+	left: 20px; top: 3600px;
+}
+h2.nomarc11 {
+	color: white;
+	position: absolute;
+	left: 20px; top: 3830px;
+}
+h2.nomarc12 {
+	color: white;
+	position: absolute;
+	left: 20px; top: 4150px;
+}
+h2.nomarc13 {
+	color: white;
+	position: absolute;
+	left: 20px; top: 4425px;
+}
+h2.nomarc14 {
+	color: white;
+	position: absolute;
+	left: 20px; top: 4700px;
+}
+
+/*-------------ici style Les Arcs (Images Arcs)--------------------*/
+
+img.imagearc1 {
+	position: absolute;
+	top: 625px; right: 20px;
+}
+
+img.imagearc2 {
+	position: absolute;
+	top: 940px; right: 20px;
+}
+img.imagearc3 {
+	position: absolute;
+	top: 1175px; right: 20px;
+}
+img.imagearc4 {
+	position: absolute;
+	top: 1500px; right: 20px;
+}
+img.imagearc5 {
+	position: absolute;
+	top: 1860px; right: 20px;
+}
+img.imagearc6 {
+	position: absolute;
+	top: 2250px; right: 20px;
+}
+img.imagearc7 {
+	position: absolute;
+	top: 2650px; right: 20px;
+}
+img.imagearc8 {
+	position: absolute;
+	top: 3030px; right: 20px;
+}
+img.imagearc9 {
+	position: absolute;
+	top: 3325px; right: 20px;
+}
+img.imagearc10 {
+	position: absolute;
+	top: 3615px; right: 20px;
+}
+img.imagearc11 {
+	position: absolute;
+	top: 3850px; right: 20px;
+}
+img.imagearc12 {
+	position: absolute;
+	top: 4175px; right: 20px;
+}
+img.imagearc13 {
+	position: absolute;
+	top: 4435px; right: 20px;
+}
+img.imagearc14 {
+	position: absolute;
+	top: 4715px; right: 20px;
+}
+
+/*-------------ici style Les Arcs (Textes Acrs)--------------------*/
+div.textearc1 {
+	color: white;
+	position: absolute;
+	top: 680px; left: 15px;
+	width: 1000px;
+}
+
+div.textearc2 {
+	color: white;
+	position: absolute;
+	top: 985px; left: 15px;
+	width: 1000px;
+}
+div.textearc3 {
+	color: white;
+	position: absolute;
+	top: 1225px; left: 15px;
+	width: 1000px;
+}
+div.textearc4 {
+	color: white;
+	position: absolute;
+	top: 1460px; left: 15px;
+	width: 1000px;
+}
+div.textearc5 {
+	color: white;
+	position: absolute;
+	top: 1860px; left: 15px;
+	width: 1000px;
+}
+div.textearc6 {
+	color: white;
+	position: absolute;
+	top: 2215px; left: 15px;
+	width: 1000px;
+}
+div.textearc7 {
+	color: white;
+	position: absolute;
+	top: 2600px; left: 15px;
+	width: 1000px;
+}
+div.textearc8 {
+	color: white;
+	position: absolute;
+	top: 3030px; left: 15px;
+	width: 1000px;
+}
+div.textearc9 {
+	color: white;
+	position: absolute;
+	top: 3375px; left: 15px;
+	width: 1000px;
+}
+div.textearc10 {
+	color: white;
+	position: absolute;
+	top: 3650px; left: 15px;
+	width: 1000px;
+}
+div.textearc11 {
+	color: white;
+	position: absolute;
+	top: 3890px; left: 15px;
+	width: 1000px;
+}
+div.textearc12 {
+	color: white;
+	position: absolute;
+	top: 4200px; left: 15px;
+	width: 1000px;
+}
+div.textearc13 {
+	color: white;
+	position: absolute;
+	top: 4475px; left: 15px;
+	width: 1000px;
+}
+div.textearc14 {
+	color: white;
+	position: absolute;
+	top: 4750px; left: 15px;
+	width: 1000px;
+}
+
+
+/*-------------ici style Les Arcs (Bandes Acrs)--------------------*/
+div.bande11 {
+	width: 1100px;
+	height: 10px;
+	background-color: white;
+	position: absolute;
+	top: 915px; left: 20px;
+}
+
+div.bande12 {
+	width: 1100px;
+	height: 10px;
+	background-color: white;
+	position: absolute;
+	top: 1150px; left: 20px;
+}
+div.bande13 {
+	width: 1100px;
+	height: 10px;
+	background-color: white;
+	position: absolute;
+	top: 1390px; left: 20px;
+}
+div.bande14 {
+	width: 1100px;
+	height: 10px;
+	background-color: white;
+	position: absolute;
+	top: 1790px; left: 20px;
+}
+div.bande15 {
+	width: 1100px;
+	height: 10px;
+	background-color: white;
+	position: absolute;
+	top: 2150px; left: 20px;
+}
+div.bande16 {
+	width: 1100px;
+	height: 10px;
+	background-color: white;
+	position: absolute;
+	top: 2525px; left: 20px;
+}
+div.bande17 {
+	width: 1100px;
+	height: 10px;
+	background-color: white;
+	position: absolute;
+	top: 2950px; left: 20px;
+}
+div.bande18 {
+	width: 1100px;
+	height: 10px;
+	background-color: white;
+	position: absolute;
+	top: 3290px; left: 20px;
+}
+div.bande19 {
+	width: 1100px;
+	height: 10px;
+	background-color: white;
+	position: absolute;
+	top: 3575px; left: 20px;
+}
+div.bande20 {
+	width: 1100px;
+	height: 10px;
+	background-color: white;
+	position: absolute;
+	top: 3815px; left: 20px;
+}
+div.bande21 {
+	width: 1100px;
+	height: 10px;
+	background-color: white;
+	position: absolute;
+	top: 4130px; left: 20px;
+}
+div.bande22 {
+	width: 1100px;
+	height: 10px;
+	background-color: white;
+	position: absolute;
+	top: 4400px; left: 20px;
+}
+div.bande23 {
+	width: 1100px;
+	height: 10px;
+	background-color: white;
+	position: absolute;
+	top: 4675px; left: 20px;
+}
+div.bande24 {
+	width: 1519px;
+	height: 15px;
+	background-color: white;
+	position: absolute;
+	top: 4950px; left: 0px;
+}
+
+/*-------------ici style Accueil--------------------*/
+
+img.imgpre1 {
+	position: absolute;
+	left: 40px; top: 640px;
+}
+
+img.imgpre2 {
+	position: absolute;
+	right: 40px; top: 640px;
+}
+
+img.imgpre3 {
+	position: absolute;
+	top: 1080px; left: 409px;
+}
+
+div.bande25 {
+	width: 1519px;
+	height: 10px;
+	background-color: white;
+	position: absolute;
+	top: 1520px; left: 0px;
+}
